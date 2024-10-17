@@ -7,14 +7,14 @@ export default {
         "primary-bg": "url('/assets/primary_bg.jpg')",
       },
       animation: {
-        "shake-ludr": "shake-ludr 3s infinite",
+        "shake-ludr": "shake-ludr 20s infinite",
       },
       keyframes: {
         "shake-ludr": {
           "0%, 100%": { transform: "translate(0, 0)" },
-          "25%": { transform: "translate(-5px, -5px)" },
-          "50%": { transform: "translate(5px, 5px)" },
-          "75%": { transform: "translate(-5px, 5px)" },
+          "25%": { transform: "translate(-10px, -50px)" },
+          "50%": { transform: "translate(10px, 5px)" },
+          "75%": { transform: "translate(-10px, 50px)" },
         },
       },
     },

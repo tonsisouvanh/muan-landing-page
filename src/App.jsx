@@ -1,4 +1,5 @@
 import "./App.css";
+import LoadingDots from "./components/LoadingDots";
 
 function App() {
   return (
@@ -34,7 +35,19 @@ function App() {
               alt=""
             />
           </div>
-          <p className="tracking-widest">coming soon...</p>
+          {/* <div className="flex items-center">
+            <p className="tracking-widest">coming soon</p>
+            <span className="tracking-widest">...</span>
+          </div> */}
+          <div className="flex items-center">
+            <p className="tracking-widest">coming soon</p>
+            <span className="tracking-widest">
+              {/* <span className="">.</span>
+              <span className="">.</span>
+              <span className="">.</span> */}
+              <LoadingDots />
+            </span>
+          </div>
           <div className="w-full max-w-xs">
             <img
               className="w-full h-full object-cover"
@@ -44,7 +57,7 @@ function App() {
           </div>
         </div>
         <div className="absolute left-0 bottom-0 right-0 pb-10">
-          <div className="max-w-fit mx-auto flex flex-col items-center justify-center text-white">
+          <div className="max-w-fit mx-auto flex flex-col gap-3 items-center justify-center text-white">
             <svg
               width="124"
               height="32"

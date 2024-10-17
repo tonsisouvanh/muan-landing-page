@@ -35,18 +35,9 @@ function App() {
               alt=""
             />
           </div>
-          {/* <div className="flex items-center">
+          <div className="flex items-center w-[130px]">
             <p className="tracking-widest">coming soon</p>
-            <span className="tracking-widest">...</span>
-          </div> */}
-          <div className="flex items-center">
-            <p className="tracking-widest">coming soon</p>
-            <span className="tracking-widest">
-              {/* <span className="">.</span>
-              <span className="">.</span>
-              <span className="">.</span> */}
-              <LoadingDots />
-            </span>
+            <LoadingDots />
           </div>
           <div className="w-full max-w-xs">
             <img

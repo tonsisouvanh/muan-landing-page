@@ -4,7 +4,7 @@ import LoadingDots from "./components/LoadingDots";
 function App() {
   return (
     <>
-      <div className="w-full relative min-h-screen bg-primary-bg bg-no-repeat bg-bottom overflow-hidden">
+      <div className="w-full relative min-h-screen bg-primary-bg bg-no-repeat bg-cover overflow-hidden">
         <div className="w-full h-screen bg-black/50 absolute inset-0"></div>
         <div className="absolute animate-shake-ludr inset-0 w-full max-w-[320px] z-[1] mx-auto">
           <img
